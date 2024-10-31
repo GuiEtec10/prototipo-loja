@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5; 
+  color: #333; 
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e25757;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+header h1 {
+  margin: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+#area-produtos {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.produto {
+  width: 220px;
+  height: 320px;
+  border: 1px solid #ddd; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  margin: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: transform 0.2s; 
+  background-color: #fff; 
+}
+
+.produto:hover {
+  transform: scale(1.05); 
+}
+
+.img-produto {
+  margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.nome-produto {
+  margin: 10px 0;
+  font-size: 1rem;
+  margin: auto;
+  font-weight: 500;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90%;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.preco-produto {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: #000; 
+}
+
+.add-carrinho {
+  width: 100%;
+  padding: 5px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  background: #aaa; 
+  color: #fff; 
+  cursor: pointer;
+  transition: background 0.3s; 
+  font-size: 1.2rem;
+  display: block;
+}
+
+.add-carrinho:hover {
+  background: #c94545;
+}
+
+.carrossel {
+  position: relative;
+  max-width: 90%;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  border-radius: 10px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  margin: auto 10px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.menu-btn {
+  margin-left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.navbar ul {
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  margin-top: 20px;
+}
+
+.navbar ul li {
+  margin: 10px 0;
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  height: 45px;
+  display: block; 
+  align-content: center; 
+  color: #222;
+  transition: background 0.3s; 
+}
+
+.navbar ul li a:hover {
+  background: #f0f0f0;
+}
+
+#nav-menu {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #nav-menu {
+    display: block;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin: 0px 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  nav ul li:hover {
+    transform: scale(1.1);
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  .carrossel {
+    height: 400px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}
+
+.navbar.open {
+  left: 0;
+}
+
+#botao-flutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  transition: background 0.3s; 
+}
+
+#botao-flutuante:hover {
+  background-color: #218838; 
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100dvh;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: right 0.3s ease;
+  z-index: 999;
+  max-height: 100dvh;
+  overflow-y: auto;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.menu-header .logo {
+  margin: 0;
+}
+
+#fechar-menu {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#carrinho-menu {
+  list-style-type: none;
+  padding: 20px;
+}
+
+#carrinho-menu li {
+  margin: 10px 0;
+}
+
+#bt-carrinho-menu-comprar {
+  width: 100%;
+  height: 45px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #eee;
+  background: #e25757;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s; 
+}
+
+#bt-carrinho-menu-comprar:hover {
+  background: #c94545; 
+}
+
+.menu-lateral.open {
+  right: 0;
+}
+
+a {
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  color: #222;
+  margin: auto;
+}
+.BT-removerDoCarrinho{
+  background: #eee;
+  border: none;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: auto;
+  width: 90%;
+  text-overflow: ellipsis;
+  padding: 0px 10px;
+  text-align: start;
+  text-transform: capitalize;
+}
+.desc {
+  width: 90%;
+  margin: 10px auto auto auto;
+  text-align: center;
+  align-content: center;
+  color: #999;
+}
+.org_prod_cart{
+  display: flex;
+}
+.preco {
+  width: 45%;
+}
