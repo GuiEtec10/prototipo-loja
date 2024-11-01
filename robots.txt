@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dm-high-fashion.onrender.com/sitemap.xml
