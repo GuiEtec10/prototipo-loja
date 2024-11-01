@@ -25,8 +25,8 @@ function atualizarCarrinhoMenu() {
   let total = 0;
 
   carrinho.forEach((produto) => {
-    carrinhoMenuElement.innerHTML += `<li> <div class="org_prod_cart"> <button class="BT-removerDoCarrinho" onclick="removerDoCarrinho('${produto.nome}')"><i class="bi bi-x"></i> ${produto.nome}</button> <button class="BT-removerDoCarrinho preco" onclick="removerDoCarrinho('${produto.nome}')">R$${produto.preco.toFixed(2)}</button> </div> </li>`;
-    total += produto.preco;
+    carrinhoMenuElement.innerHTML += `<li> <div class="org_prod_cart"> <button class="BT-removerDoCarrinho" onclick="removerDoCarrinho('${produto.nome}')"><i class="bi bi-x"></i> ${produto.nome}</button> <button class="BT-removerDoCarrinho price" onclick="removerDoCarrinho('${produto.nome}')">R$${produto.price.toFixed(2)}</button> </div> </li>`;
+    total += produto.price;
   });
 
   carrinhoMenuElement.innerHTML += `<strong>Total: R$${total.toFixed(2)}</strong>`;
@@ -53,8 +53,8 @@ function comprar() {
   const mensagem_inicial = "Olá! Acabei de adicionar as seguintes coisas ao meu carrinho: ";
 
   carrinho.forEach((produto) => {
-    mensagem += `- ${produto.nome} .... R$${produto.preco.toFixed(2)}\n`;
-    total += produto.preco;
+    mensagem += `- ${produto.nome} .... R$${produto.price.toFixed(2)}\n`;
+    total += produto.price;
   });
 
   if (total === 0) {

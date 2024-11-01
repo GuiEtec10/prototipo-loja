@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Conjunto Gisele",
-    "preco": 120.0,
+    "price": 120.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20Gisele/Conjunto%20Gisele%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20Gisele/Conjunto%20Gisele%20(2).jpg?raw=true",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "nome": "Vestido june",
-    "preco": 140.0,
+    "price": 140.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Vestido%20june/Vestido%20june%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Vestido%20june/Vestido%20june%20(2).jpg?raw=true",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "nome": "Body Noronha",
-    "preco": 60.0,
+    "price": 60.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Body%20Noronha/Body%20Noronha%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Body%20Noronha/Body%20Noronha%20(2).jpg?raw=true"
@@ -31,7 +31,7 @@
   {
     "id": 4,
     "nome": "Saia Tatiane",
-    "preco": 60.0,
+    "price": 60.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Saia%20Tatiane/Saia%20Tatiane%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Saia%20Tatiane/Saia%20Tatiane%20(2).jpg?raw=true",
@@ -41,7 +41,7 @@
   {
     "id": 5,
     "nome": "Conjunto Jéssica",
-    "preco": 85.9,
+    "price": 85.9,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20J%C3%A9ssica/Conjunto%20J%C3%A9ssica%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20J%C3%A9ssica/Conjunto%20J%C3%A9ssica%20(2).jpg?raw=true",
@@ -51,7 +51,7 @@
   {
     "id": 6,
     "nome": "Cropped mavie",
-    "preco": 60.0,
+    "price": 60.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20mavie/Cropped%20mavie%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20mavie/Cropped%20mavie%20(2).jpg?raw=true",
@@ -61,7 +61,7 @@
   {
     "id": 7,
     "nome": "Cropped Francine + Faixa de cabelo",
-    "preco": 60.0,
+    "price": 60.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Francine%20+%20Faixa%20de%20cabelo/Cropped%20Francine%20+%20Faixa%20de%20cabelo%20(1).jpg?raw=true",
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Francine%20+%20Faixa%20de%20cabelo/Cropped%20Francine%20+%20Faixa%20de%20cabelo%20(2).jpg?raw=true",
@@ -71,9 +71,18 @@
   {
     "id": 8,
     "nome": "Top faixa tube",
-    "preco": 60.0,
+    "price": 60.0,
     "imagens": [
       "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Top%20faixa%20tube/Top%20faixa%20tube.jpg?raw=true"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Cropped Lindy",
+    "price": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Lindy/Cropped%20Lindy%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Lindy/Cropped%20Lindy%20(2).jpg?raw=true"
     ]
   }
 ]

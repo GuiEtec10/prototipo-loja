@@ -32,10 +32,10 @@ async function carregarProduto() {
         </div>
         <div class="textos">
           <h2 class="produto-nome">${produto.nome}</h2>
-          <p class="produto-preco">R$${produto.preco.toFixed(2)}</p>
+          <p class="produto-price">R$${produto.price.toFixed(2)}</p>
           <button class="add-carrinho" id="add-cart" onclick="adicionarAoCarrinho({ nome: '${
             produto.nome
-          }', preco: ${produto.preco} })">
+          }', price: ${produto.price} })">
             <i class="bi bi-cart3"></i> Adicionar ao Carrinho 
           </button> 
         </div>

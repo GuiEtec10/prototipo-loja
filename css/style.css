@@ -22,10 +22,11 @@ header {
   background-color: #fff; 
 }
 
-header h1 {
+h1 {
   margin: 20px;
   letter-spacing: 2px;
   font-weight: 300;
+  font-size: 1.8rem;
 }
 
 #area-produtos {
@@ -76,7 +77,7 @@ header h1 {
   text-transform: capitalize;
 }
 
-.preco-produto {
+.price-produto {
   margin: 10px 0;
   font-size: 1.1rem;
   font-weight: 900;
@@ -351,6 +352,6 @@ a {
 .org_prod_cart{
   display: flex;
 }
-.preco {
+.price {
   width: 45%;
 }

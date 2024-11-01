@@ -14,9 +14,9 @@ async function carregarProdutos() {
                 <a href="detalhes.html?id=${produto.id}">
                     <img src="${produto.imagens}" alt="${produto.nome}" class="img-produto" />
                     <h3 class="nome-produto">${produto.nome}</h3>
-                    <h4 class="preco-produto">R$${produto.preco}</h4>
+                    <h4 class="price-produto">R$${produto.price}</h4>
                 </a>
-                <button class="add-carrinho" onclick="adicionarAoCarrinho({ nome: '${produto.nome}', preco: ${produto.preco} })">
+                <button class="add-carrinho" onclick="adicionarAoCarrinho({ nome: '${produto.nome}', price: ${produto.price} })">
                     <i class="bi bi-cart3"></i>
                 </button>
             `;
