@@ -1,2 +1,2 @@
-💻 Site da Loja DM HIGH FASHION.
+💻 Site da Loja DM HIGH FASHION. <br>
 Desenvolvido por Guilherme.
