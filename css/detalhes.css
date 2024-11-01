@@ -73,3 +73,36 @@
     width: 30%;
   }
 }
+
+#image-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#image-display {
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#image-display img {
+  object-fit: cover;
+  width: 100%;
+  margin: 10px;
+  height: auto;
+  max-height: 400px;
+  display: none;
+}
+#image-display img.active {
+  display: block;
+}
+#prev-btn, #next-btn {
+  background: none;
+  border: none;
+}
+svg{
+  width: 30px;
+  height: 50px;
+}

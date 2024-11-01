@@ -60,7 +60,7 @@ function comprar() {
   if (total === 0) {
     window.alert("Parece que você ainda não escolheu nada! Explore nossa loja e adicione seus itens favoritos ao carrinho!");
   } else {
-    const numeroWhatsApp = "5514996324901";
+    const numeroWhatsApp = "5511969666306";
     const mensagemCompleta = `${mensagem_inicial}\n${mensagem}\nTotal R$${total.toFixed(2)}\nPoderia me ajudar a finalizar a compra? `;
     window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagemCompleta)}`);
   }

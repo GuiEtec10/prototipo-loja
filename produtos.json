@@ -1,72 +1,79 @@
 [
   {
     "id": 1,
-    "nome": "Camiseta Preta Básica",
-    "preco": 67.9,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Camiseta básica preta em malha pesada."
+    "nome": "Conjunto Gisele",
+    "preco": 120.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20Gisele/Conjunto%20Gisele%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20Gisele/Conjunto%20Gisele%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20Gisele/Conjunto%20Gisele%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 2,
-    "nome": "Camiseta Branca Básica",
-    "preco": 70.9,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Camiseta básica branca em malha pesada."
+    "nome": "Vestido june",
+    "preco": 140.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Vestido%20june/Vestido%20june%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Vestido%20june/Vestido%20june%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Vestido%20june/Vestido%20june%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 3,
-    "nome": "Camiseta Cinza Básica",
-    "preco": 60.9,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Camiseta básica cinza em malha pesada."
+    "nome": "Body Noronha",
+    "preco": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Body%20Noronha/Body%20Noronha%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Body%20Noronha/Body%20Noronha%20(2).jpg?raw=true"
+    ]
   },
   {
     "id": 4,
-    "nome": "Blusa de Moletom",
-    "preco": 80.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Blusa de moletom confortável e quente."
+    "nome": "Saia Tatiane",
+    "preco": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Saia%20Tatiane/Saia%20Tatiane%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Saia%20Tatiane/Saia%20Tatiane%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Saia%20Tatiane/Saia%20Tatiane%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 5,
-    "nome": "Calça Jeans Azul Clara",
-    "preco": 90.5,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Calça jeans azul clara, ideal para o dia a dia."
+    "nome": "Conjunto Jéssica",
+    "preco": 85.9,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20J%C3%A9ssica/Conjunto%20J%C3%A9ssica%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20J%C3%A9ssica/Conjunto%20J%C3%A9ssica%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Conjunto%20J%C3%A9ssica/Conjunto%20J%C3%A9ssica%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 6,
-    "nome": "Shorts de Sarja",
-    "preco": 45.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Shorts de sarja, perfeito para o verão."
+    "nome": "Cropped mavie",
+    "preco": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20mavie/Cropped%20mavie%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20mavie/Cropped%20mavie%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20mavie/Cropped%20mavie%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 7,
-    "nome": "Camisa Social Azul",
-    "preco": 85.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Camisa social azul, ideal para ocasiões formais."
+    "nome": "Cropped Francine + Faixa de cabelo",
+    "preco": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Francine%20+%20Faixa%20de%20cabelo/Cropped%20Francine%20+%20Faixa%20de%20cabelo%20(1).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Francine%20+%20Faixa%20de%20cabelo/Cropped%20Francine%20+%20Faixa%20de%20cabelo%20(2).jpg?raw=true",
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Cropped%20Francine%20+%20Faixa%20de%20cabelo/Cropped%20Francine%20+%20Faixa%20de%20cabelo%20(3).jpg?raw=true"
+    ]
   },
   {
     "id": 8,
-    "nome": "Saia Midi Floral",
-    "preco": 70.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Saia midi com estampa floral, perfeita para o verão."
-  },
-  {
-    "id": 9,
-    "nome": "Tênis Casual Branco",
-    "preco": 120.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Tênis casual branco, confortável e estiloso."
-  },
-  {
-    "id": 10,
-    "nome": "Jaqueta de Couro",
-    "preco": 250.0,
-    "imagem": "https://images.tcdn.com.br/img/img_prod/947450/camiseta_basic_strong_preto_malha_pesada_1053_1_03680dfa0aa04d53f062a170f8527091.jpg",
-    "descricao": "Jaqueta de couro, um clássico que nunca sai de moda."
+    "nome": "Top faixa tube",
+    "preco": 60.0,
+    "imagens": [
+      "https://github.com/GuilhasDev/LojinhaImagens/blob/main/Top%20faixa%20tube/Top%20faixa%20tube.jpg?raw=true"
+    ]
   }
 ]

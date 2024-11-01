@@ -12,7 +12,7 @@ async function carregarProdutos() {
 
       produtoDiv.innerHTML = `
                 <a href="detalhes.html?id=${produto.id}">
-                    <img src="${produto.imagem}" alt="${produto.nome}" class="img-produto" />
+                    <img src="${produto.imagens}" alt="${produto.nome}" class="img-produto" />
                     <h3 class="nome-produto">${produto.nome}</h3>
                     <h4 class="preco-produto">R$${produto.preco}</h4>
                 </a>

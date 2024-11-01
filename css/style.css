@@ -68,8 +68,7 @@ header h1 {
   font-size: 1rem;
   margin: auto;
   font-weight: 500;
-  height: 30px;
-  white-space: nowrap;
+  height: 40px;
   overflow: hidden;
   width: 90%;
   text-overflow: ellipsis;
