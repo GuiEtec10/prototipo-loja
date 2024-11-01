@@ -70,7 +70,7 @@ async function carregarProduto() {
       images[index].classList.add('active');
     }
   } else {
-    document.getElementById("produto-detalhes").innerHTML = `<p>Produto não encontrado.</p>`;
+    document.getElementById("produto-detalhes").innerHTML = `<p id="produto-invalido">Produto não encontrado.</p>`;
   }
 }
 
