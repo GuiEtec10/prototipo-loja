@@ -123,6 +123,13 @@ h1 {
 .slide {
   min-width: 100%;
   border-radius: 10px;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    height: auto;
+}
 }
 
 .navbar {
